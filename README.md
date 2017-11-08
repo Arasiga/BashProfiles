@@ -15,3 +15,10 @@ Follow this README to pimp up your Mac Terminal!
   alias ls='ls -GFh'
   alias docs='cd && cd Documents/'
 ```
+
+## Cool Profiles
+
+Preview | Script | Pretty
+--- | --- | ---
+<img src="https://github.com/Arasiga/BashProfiles/blob/master/images/Screen%20Shot%202017-11-08%20at%2012.14.30%20PM.png" width="250" /> | code | **nicely**
+1 | 2 | 3
