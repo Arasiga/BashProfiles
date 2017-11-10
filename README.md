@@ -18,7 +18,7 @@ Follow this README to pimp up your Mac Terminal!
 
 ## Cool Profiles
 
-Preview | Script | Pretty
---- | --- | ---
-<img src="https://github.com/Arasiga/BashProfiles/blob/master/images/Screen%20Shot%202017-11-08%20at%2012.14.30%20PM.png" width="250" /> | code | **nicely**
-1 | 2 | 3
+Preview | Script 
+--- | --- 
+<img src="https://github.com/Arasiga/BashProfiles/blob/master/images/Screen%20Shot%202017-11-08%20at%2012.14.30%20PM.png" width="350" /> | ```export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\t:\[\033[33;1m\]\W\[\033[m\]\$" ``` 
+
