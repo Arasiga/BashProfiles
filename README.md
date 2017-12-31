@@ -5,7 +5,7 @@ Follow this README to pimp up your Mac Terminal!
 ## How to use
 1. Go to user's home directory by entering `cd /` in your terminal.
 2. Open `.bash_profile` with your favourite text editor.
-3. Copy desired shell scripts from tables below into `.bash_profile` in any order and save the file.
+3. Copy desired shell scripts/aliases from tables below into `.bash_profile` in any order and save the file.
 4. Run `source .bash_profile` in your terminal (make sure you're still in users home directory).
 
 ## Useful Aliases
@@ -18,6 +18,8 @@ Follow this README to pimp up your Mac Terminal!
   alias ..='cd ..'
   alias .='cd '
   alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+  alias finder='open -a Finder ./'
+  alias ip='ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk "{print $2}"'
 ```
 
 ## Cool Profiles
