@@ -11,15 +11,15 @@ Follow this README to pimp up your Mac Terminal!
 ## Useful Aliases
 
 ```sh
-  alias c='clear'
-  alias ls='ls -GFh'
-  alias docs='cd && cd Documents/'
-  alias Desktop='cd && cd Desktop/'
-  alias ..='cd ..'
-  alias .='cd '
-  alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-  alias finder='open -a Finder ./'
-  alias ip='ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk "{print $2}"'
+  alias c='clear' # Clears terminal
+  alias ls='ls -GFh' # Shows all files in pwd
+  alias docs='cd && cd Documents/' # Redirects you to your documents
+  alias desktop='cd && cd Desktop/' # Redirects you to your desktop
+  alias ..='cd ..' # Shorthand for going up one directory
+  alias .='cd ' # Shorthand for going to root directory
+  alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome' # Opens chrome (Assuming you have it - which you should)
+  alias finder='open -a Finder ./' # Opens finder
+  alias ip='ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk "{print $2}"' # Tells you your IP!
 ```
 
 ## Cool Profiles
